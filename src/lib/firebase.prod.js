@@ -6,13 +6,14 @@ import 'firebase/auth';
 // import { seedDatabase } from '../seed';
 
 const config = {
-  apiKey: '',
-  authDomain: '',
-  databaseURL: '',
-  projectId: '',
-  storageBucket: '',
-  messagingSenderId: '',
-  appId: '',
+  apiKey: "AIzaSyA2_TjbX33V4Q7WZgFKiXTMKlqgdFfzfVA",
+  authDomain: "kes-netflix.firebaseapp.com",
+  databaseURL: "https://kes-netflix.firebaseio.com",
+  projectId: "kes-netflix",
+  storageBucket: "kes-netflix.appspot.com",
+  messagingSenderId: "898652713765",
+  appId: "1:898652713765:web:073440f660a8e01571e0cc",
+  measurementId: "G-F3HCS2870Y"
 };
 
 const firebase = Firebase.initializeApp(config);
